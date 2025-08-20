@@ -20,14 +20,35 @@ class Aluno:
     def atribuir_media(self,media):
         self.cra = media
 
+    def get_cra(self):
+        return self.cra
 
 
 turma_2ano = []
 
 for i in range(7):
     nome = input('digite o nome')
-    turma_2ano.append()
-#para completar: instanciar o objeto e colocar dentro da lista
+    a = int(input('digite a serie'))
+    asdad = float(input('digite o cra'))
 
-#fazer outro for para calcular a media da turma
+    novo_aluno = Aluno(nome, a, asdad)
+    turma_2ano.append(novo_aluno)
+
+somaCRA = 0
+for i in range(7):
+    somaCRA = somaCRA + turma_2ano[i].get_cra()
+    #somaCRA += turma_2ano[i].cra
+
+
+media = somaCRA / 7
+print(f'a turma do segundo ano possui media no CRA de {media}')
+
+
+
+
+
+
+
+
+
 
