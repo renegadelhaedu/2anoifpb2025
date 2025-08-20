@@ -13,6 +13,7 @@ estado_time = input('de qual estado é? ')
 estadio_futebol = input('qual o nome do estadio deste time? ')
 
 sousa = Time(nome, estado_time, estadio_futebol)
-
 print(sousa.estado)
+
+
 
