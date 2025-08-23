@@ -1,3 +1,19 @@
+'''
+-criar uma classe Passageiro e criar um construtor para a classe
+-criar atributos da classes (nome, cpf, poltrona)
+-fora da classe deve-se criar um menu para:
+.cadastrar passageiro
+.listar passageiros
+.buscar passageiro pelo cpf
+
+
+Use uma lista para armazenar os passageiros
+
+-modifique o código para aceitar cpf com apenas 11 caracteres
+-adicione um método na classe passageiro para retornar o seguinte texto:
+ 'meu nome é ? e eu estou sentado na poltrona ?'
+
+'''
 class Passageiro:
     def __init__(self, nome, cpf, poltrona):
         self.nome_pa = nome
