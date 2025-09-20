@@ -34,5 +34,6 @@ rene.set_cpf('98765432112')
 novo_nome = input('digite a mudança de nome')
 rene.set_nome(novo_nome)
 
-print(rene.get_cpf())
-print(rene.get_nome())
+#formatar
+print(f'o nome do usuário é {rene.get_nome()} e o seu cpf é {rene.get_cpf()}' )
+print('o nome do usuário é', {rene.get_nome()}, 'e o seu cpf é ', {rene.get_cpf()})
