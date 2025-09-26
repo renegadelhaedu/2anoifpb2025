@@ -1,4 +1,4 @@
-#ENCAPSULAMENTO
+#ENCAPSULAMENTO: pilares de POO
 class Trabalhador:
     #atributo da classe
     ch_max = 44
