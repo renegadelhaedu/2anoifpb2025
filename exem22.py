@@ -3,6 +3,8 @@ from modelos.empresa import Empresa
 
 isis = Empresa('234642342','laticinio belo vale')
 
+
+#FAZER MENU AQUI
 for i in range(3):
     nome = input('digite seu nome')
     cpf = input('digite seu cpf')
