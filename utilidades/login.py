@@ -10,6 +10,7 @@ def fazer_login(lista, matricula, senha):
 def oi():
     return 'e toda vez que vc me disser oi, eu vou responder so oi'
 
+
 def mostrar_menu_aluno(nome):
     print('\n\nSEJA BEM-VINDO', nome)
     print('1-cadastrar uma acao')
