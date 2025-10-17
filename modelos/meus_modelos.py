@@ -32,3 +32,27 @@ class Pessoa:
 
     def almocar(self):
         print('preciso almoçar')
+
+
+class Servidor(Pessoa):
+    def __init__(self, nome, login, senha, salario):
+        super().__init__(nome, login, senha)
+        self.salario = salario
+
+    def bater_ponto(self):
+        print('estou registrando meu ponto')
+
+    def almocar(self):
+        print('preciso sair para almoçar ou pedir delivery')
+
+
+class Terceirizado(Pessoa):
+    def __init__(self, nome, login, senha, salario, num_clt):
+        super().__init__(nome, login, senha)
+        self.salario = salario
+        self.num_clt = num_clt
+
+    def almocar(self):
+        print('vou para a cozinha do ifpb almoçar')
+
+

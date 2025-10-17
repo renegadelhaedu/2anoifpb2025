@@ -10,6 +10,10 @@ class Servidor(Pessoa):
     def bater_ponto(self):
         print('estou registrando meu ponto')
 
+    def almocar(self):
+        print('preciso sair para almoçar ou pedir delivery')
+
+
 #instanciando um objeto da classe Servidor
 reginaldo = Servidor('reginaldo','regis','123', 5000)
 
