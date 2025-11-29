@@ -1,0 +1,9 @@
+integrar uma aplicação python (POO) com banco de dados:
+
+1-sqllite (create table, insert, select, delete, update)
+
+2-camadas:
+	-modelos (classes)
+	-dao (classeDAO	) - objeto de acesso aos dados
+	-controller (principal de interação com usuário)
+
