@@ -1,8 +1,10 @@
 from modelos import Pessoa
 from dao import PessoaDAO
 
-
-dao = PessoaDAO("pessoas.db")
+#instanciando um objeto DAO
+daopessoa = PessoaDAO("pessoas.db")
+daonumei = NumseiqueDAO("pessoas.db")
+daoblabla = BlablaDAO("pessoas.db")
 
 #CONTROLE / regras / front do usuário
 while True:
@@ -17,8 +19,10 @@ while True:
         nome = input("Nome: ")
         idade = int(input("Idade: "))
         if idade > 0 and idade < 130:
+            #objeto instanciado do meu modelo
             nova_pessoa = Pessoa(None, nome, idade)
-            dao.inserir(nova_pessoa)
+            #DAO
+            dao.inserir(nova_pessoa) #mandando um objeto da classe Pessoa
             print('usuário cadastrado com sucesso')
         else:
             print('voce digitou errado')

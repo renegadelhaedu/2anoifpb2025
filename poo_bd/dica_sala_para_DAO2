@@ -1,0 +1,23 @@
+modelos
+ - classes/entidades-> tabelas
+ - construtor, atributos, métodos de acesso aos atributos(encapsulamento)
+
+pacote modelos
+	-cliente.py (class Cliente)
+	-produto.py (class Produto)
+	-nota fiscal.py ...
+
+pacote dao
+	-clientedao.py  (class ClienteDao)
+	-produtodao.py  (class ClienteDao)
+	-notafiscantedao.py  ...
+
+arquivo utils
+	arquivo de funções (logar, comprar, cadastrar)
+	neste arquivo, você usa os métodos DAO
+
+
+main.py
+	op1: chamar as funções do utils
+	OU
+	op2: deixar o code das funções dentro do main
