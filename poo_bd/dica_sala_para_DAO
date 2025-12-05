@@ -1,0 +1,15 @@
+administrador , clientes
+
+tabelas
+
+1-login como administrador
+	-usuário digitar login e senha
+	-administradorDAO (instanciado) para verificar (select) se a login e senha estão certos
+	-métodoDAO: objeto preenchido ou None
+
+2-mostrar menu do admin
+	-opção de remover cliente
+	-clienteDAO (instanciado)
+	-busca pelo nome ou listar clientes
+	-ler do usuário o CPF
+	-métodoDAO (remover_cliente_cpf) passando o CPF de parâmetro
