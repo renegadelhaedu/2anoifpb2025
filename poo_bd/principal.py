@@ -3,8 +3,7 @@ from dao import PessoaDAO
 
 #instanciando um objeto DAO
 daopessoa = PessoaDAO("pessoas.db")
-daonumei = NumseiqueDAO("pessoas.db")
-daoblabla = BlablaDAO("pessoas.db")
+
 
 #CONTROLE / regras / front do usuário
 while True:
